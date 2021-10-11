@@ -3,7 +3,7 @@ const { join } = require('path')
 
 module.exports = (req, res) => {
 
-    const { name = 'demo' } = req.query;
+    const { name = 'demo.html' } = req.query;
 
     fs.readFile(join(__dirname, '_files', name), 'utf8', (err, data) => {
         if (err) {
