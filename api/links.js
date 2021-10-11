@@ -10,7 +10,7 @@ module.exports = (req, res) => {
           fileArr.push(file)
         });
         res.json({
-            [files]: [fileArr]
+            files: [fileArr]
         });
       });
 }
