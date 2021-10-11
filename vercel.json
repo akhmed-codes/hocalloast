@@ -11,7 +11,7 @@
       }
     ],
     "functions": {
-      "api/hello.js": {
+      "api/main.js": {
         "includeFiles": "_files/**"
       }
     }
