@@ -9,9 +9,10 @@ module.exports = (req, res) => {
         //   console.log(file);
           fileArr.push(file)
         });
-        res.json({
-            files: [fileArr]
-        });
+        // res.json({
+        //     files: [fileArr]
+        // });
+        res.status(200).send(`${fileArr}`);
       });
 }
 
